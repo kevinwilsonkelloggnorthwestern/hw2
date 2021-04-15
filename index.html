@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruitStand</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="flex">
+        <h1 class="text-left text-9xl text-red-600 font-black">fruit</h1>
+        <h1 class="text-left text-7xl text-yellow-500 font-bold">Stand</h1>
+    </div>
+        <h2 class="font-serif text-red-500 italic">A new way to buy produce</h2>
+
+    <div class="md:flex px-16 bg-grey-100">
+        <h2 class="sm:rounded-tl-lg  p-6 h-2 border-4 border-red-400"><a href=products.html>Our Products</a></h2>
+        <h2 class="p-6 h-2 border-4 border-red-400"><a href=suppliers.html>Our Suppliers</a></h2>
+        <h2 class="sm:rounded-tr-lg p-6 h-2 border-4 border-red-400"><a href=story.html>Our Story</a></h2>
+    </div>    
+
+    <form netlify class="mx-auto mt-8 w-64">
+        <label class="block mt-4 font-bold" for="address">What is your address?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="address" name="address">
+  
+        <label class="block mt-4 font-bold" for="choice">List the fruits you would like to buy (separated by a comma)</label>
+        <input class="p-4 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="choice" name="choice">
+  
+        <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+      </form>
+
+</body>
+</html>
+
+
+<!-- Colors - Got it
+Typography - Fonts got it
+Borders - got it
+Sizing - got it
+Box Model
+Layout (Flexbox)
+Responsive Design -->
